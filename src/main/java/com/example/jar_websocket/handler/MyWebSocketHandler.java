@@ -8,8 +8,8 @@ public class MyWebSocketHandler extends TextWebSocketHandler {
 
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {
-        // Envía un mensaje JSON "Hola Mundo" al cliente cuando se establece la conexión
-        String jsonMessage = "{\"message\": \"Hola Mundo desde WebSocket en Java\"}";
+        // Sends a "Hello World" JSON message to the client when the connection is established.
+        String jsonMessage = "{\"message\": \"Hello World from WebSocket in Java\"}";
         session.sendMessage(new TextMessage(jsonMessage));
     }
 }

@@ -25,6 +25,7 @@ Technologies used in this project:
 - [Spring Boot](https://spring.io/projects/spring-boot): Version 2.x
 - [WebSocket API](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html): Spring WebSocket
 - [Maven](https://maven.apache.org): Build tool
+- [Swagger](https://swagger.io/docs): Version 0.0.2
 
 ## Installation
 ***  
@@ -33,6 +34,7 @@ Follow these steps to install and run the project:
 Ensure you have the following tools installed:
 - Java 17 or higher
 - Maven  
+
 ```
 java -version
 mvn --version
@@ -51,6 +53,10 @@ mvn spring-boot:run
 ```
 Open a browser and enter to
 [http://localhost:8080](http://localhost:8080)
+
+
+Or to review the endpoints in Swagger enter to
+[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 ### Via Docker-hub
 Pull the image from Docker-hub
 ```
@@ -62,3 +68,7 @@ docker run -p 8080:8080 na4va4/jar_websocket
 ```
 Open a browser and enter to
 [http://localhost:8080](http://localhost:8080)
+
+
+Or to review the endpoints in Swagger enter to
+[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
